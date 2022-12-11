@@ -74,11 +74,13 @@ function Login(props) {
         <div class="container">
             <div class="row justify-content-center">
             <div class="col-md-7 col-lg-7 col-xl-7">
-                 <div class="text-center">
-                       Condominium Documents Experience                    
-                  </div>
-                 
-                    This site shows AI  in analyzing condominium documents
+                 <h1 class="text-center">
+                     Welcome to Condominium Documents                     
+                  </h1>
+                 <p>
+                    This site uses AI in analyzing condominium documents
+                    Deeds are required for filing with the registrar of deeds to legally register the building as a condominium
+                 </p>
                 </div>
                 <div class="col-md-5 col-lg-5 col-xl-5">
                     <div class="card shadow-lg o-hidden border-0 my-5">
