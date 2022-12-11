@@ -10,7 +10,7 @@ export default function Context() {
 
   useEffect(() => {
       // temporary holder api for http://localhost:1880/monitors 
-    fetch(`https://mocki.io/v1/b030311b-6c6f-4018-9902-9219bb8582ee?_limit=8`)
+    fetch(`https://mocki.io/v1/a7796876-7bd8-491b-a785-2e4face8a0b9?_limit=8`)
       .then((response) => {
         if (!response.ok) {
           throw new Error(
