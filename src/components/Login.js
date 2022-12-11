@@ -74,7 +74,11 @@ function Login(props) {
         <div class="container">
             <div class="row justify-content-center">
             <div class="col-md-7 col-lg-7 col-xl-7">
-                  
+                 <div class="text-center">
+                       Condominium Documents Experience                    
+                  </div>
+                 
+                    This site shows AI  in analyzing condominium documents
                 </div>
                 <div class="col-md-5 col-lg-5 col-xl-5">
                     <div class="card shadow-lg o-hidden border-0 my-5">
