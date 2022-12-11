@@ -6,7 +6,7 @@ import Login from './components/Login';
 import Navbar from './components/Navbar';
 import Signup from './components/Signup';
 //import Context from './context';
-import SingleCocktail from './pages/SingleMention';
+import SingleCocktail from './pages/CondoDoc';
 
 function App(props) {
   return (
