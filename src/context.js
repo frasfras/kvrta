@@ -34,7 +34,7 @@ export default function Context() {
 
   return (
     <div className="App">
-      <h1>API Feed -Reviews</h1>
+      <h1>AI Comment Docs </h1>
       <form  className="search-form">
         <label ><h4>Search 👉🏽</h4></label>  
        <input type='text'
