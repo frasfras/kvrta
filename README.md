@@ -1,70 +1,31 @@
-# Getting Started with Create React App
+# ReputationExpert
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+<h2>Inspiration</h2>
 
-## Available Scripts
+We were inspired by One companys lack of media monitoring .   to Navigate the complex world of social media.It was inspired by  the lack   process in  sustainable reputation and uses. somebody's reputation can be ruined with 20 characters of text.For businesses it's the reputation of the business that matters.Maintaining your reputation is something that's ever been able to be done before so how are we going to protect the reputation of your business
 
-In the project directory, you can run:
+-To interact with Social media monitoring So company : <br/>
+function if_brand_mentioned(){
+ <br/>  echo"Analyze tone and sentiment of this brand mentioned "
+}<br/>
+-track Mentions gathered in social Media get details .
 
-### `yarn start`
+<h2>What it does</h2> <br/>
+ Node-Red takes Rss feed of website, it converts links title into API. RepAlert fetches monitoring Api From frontend dashboard. 
+ if_brand_mentioned(){
+<br/> echo"get document analysis brand mentioned "
+ <br/>get "the summary for  documents"
+} <br/>
+ gets meaning of words  used positive or negativenes
+ get keywords of topics  and brands mentioned  
+ CREATE ALERT WITH KEYWORDS 
+ <h2>How it works </h2>
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+ <img src='https://v5.airtableusercontent.com/v1/10/10/1668038400000/XbidjmtuweiqAMmGWQUYHg/6WjzJjN5XFngZN4rWYdtkzReNXglGkNBZ1UaZAUKjAfPjvvhJrkvRhu_s1niP2-RPNBjRK5t40z6HXA_eUay5w/8yCMRqlWR7fNCJvMbaDf8het7ER-2nNP3AOyqTSVpU4'  />
+  <h2>ExpertAI Technology</h2>
+In order to deliver a prototype ,will use the Expert.AI NLP Api
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
-
-### `yarn test`
-
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
-
-### `yarn build`
-
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
-
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
-
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
-
-### `yarn eject`
-
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Pega platform - Create alert keywords Workflow |
+Node-Red takes Rss feed of website converts links title into API
+| Expert.AI NLP Api 
+| React -Design UI |
