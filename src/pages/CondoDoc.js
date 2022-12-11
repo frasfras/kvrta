@@ -7,7 +7,7 @@ import BarChart from 'react-bar-chart';
 import '../components/dashboard.css';
 
 
-const url = 'https://www.thecocktaildb.com/api/json/v1/1/lookup.php?i='
+
 
 
 
