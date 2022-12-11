@@ -241,7 +241,7 @@ const [data,setData] =useState ([
                 </div>
                 <div className="col col-lg-8">
                 <ul class="list-group" style={{marginTop:'2rem'}}>
-                <li class="list-group-item"><b>Main Entities mentioned</b></li>
+                <li class="list-group-item"><b> Entities mentioned</b></li>
                 {
                     entities.map((entity)=>{
                         return(
