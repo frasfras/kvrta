@@ -25,7 +25,7 @@ function Dashboard(props) {
 
     var Routes=(
         <nav className="navbar navbar-dark navbar-expand-lg fixed-top text-primary bg-dark portfolio-navbar gradient" >
-        <div className="container-fluid"><Link className="navbar-brand logo" to="/">Rep alert </Link><button data-toggle="collapse" className="navbar-toggler" data-target="#navbarNav"><span className="sr-only">Toggle navigation</span><span className="navbar-toggler-icon"></span></button>
+        <div className="container-fluid"><Link className="navbar-brand logo" to="/">AI Condo Docs </Link><button data-toggle="collapse" className="navbar-toggler" data-target="#navbarNav"><span className="sr-only">Toggle navigation</span><span className="navbar-toggler-icon"></span></button>
             <div className="collapse navbar-collapse"
                 id="navbarNav">
                 <ul className="nav navbar-nav ml-auto">
