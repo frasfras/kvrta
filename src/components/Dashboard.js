@@ -32,7 +32,7 @@ function Dashboard(props) {
                    
                     <li className="nav-item" role="presentation"><Link className="nav-link" to="/dashboard"><i style={{marginRight:'5px'}} className="fa fa-donut-chart">👉🏽</i>Dashboard</Link></li>
                     <li className="nav-item" role="presentation" onClick={logout}><Link className="nav-link" to="/dashboard"><i style={{marginRight:'5px'}} className="fa fa-user"></i>Logout</Link></li>
-                    <li className="nav-item" role="presentation"><Link className="nav-link" to={`/cocktail/${id}`}><i style={{marginRight:'5px'}} className="fa fa-pie-chart"></i>Single Mention</Link></li>
+                    <li className="nav-item" role="presentation"><Link className="nav-link" to={`/cocktail/${id}`}><i style={{marginRight:'5px'}} className="fa fa-pie-chart"></i>Deed</Link></li>
                        
         
                     
