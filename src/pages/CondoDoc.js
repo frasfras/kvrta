@@ -193,7 +193,7 @@ const [data,setData] =useState ([
                 <div class="card" style={{marginTop:'2rem'}} >
                 
                     <div className="card-body text-black">
-                    <h5 class="card-title ">Summarys</h5>
+                    <h5 className="card-title ">Summarys</h5>
                     {
                         main.map((maintext)=>{
                             return(
