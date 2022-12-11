@@ -23,13 +23,13 @@ const logout=()=>{
 
 var Routes=(
     <nav className="navbar navbar-dark navbar-expand-lg fixed-top text-primary bg-dark portfolio-navbar gradient" >
-    <div className="container-fluid"><Link className="navbar-brand logo" href="/">Rep alert </Link><button data-toggle="collapse" className="navbar-toggler" data-target="#navbarNav"><span className="sr-only">Toggle navigation</span><span className="navbar-toggler-icon"></span></button>
+    <div className="container-fluid"><Link className="navbar-brand logo" href="/">AI Condo </Link><button data-toggle="collapse" className="navbar-toggler" data-target="#navbarNav"><span className="sr-only">Toggle navigation</span><span className="navbar-toggler-icon"></span></button>
         <div className="collapse navbar-collapse"
             id="navbarNav">
             <ul className="nav navbar-nav ml-auto">
                
                 <li className="nav-item" role="presentation"><Link className="nav-link" to="/dashboard"><i style={{marginRight:'5px'}} className="fa fa-line-chart"> 👉🏽</i>Dashboard</Link></li>
-                <li className="nav-item" role="presentation"><Link className="nav-link" to={`/cocktail/${id}`}><i style={{marginRight:'5px'}} className="fa fa-pie-chart"></i>Single Mention</Link></li>
+                <li className="nav-item" role="presentation"><Link className="nav-link" to={`/cocktail/${id}`}><i style={{marginRight:'5px'}} className="fa fa-pie-chart"></i>Deeds</Link></li>
     
                    
     
@@ -182,7 +182,7 @@ const [data,setData] =useState ([
             <label for="exampleFormControlTextarea1" style={{marginTop:'3rem'}}>Review Text</label>
             <textarea class="form-control" id="exampleFormControlTextarea1" rows="12" value={text}></textarea>
             {/* <button onClick={refreshPage}> Try another!</button> */}
-            <div><Link className="nav-link" to={`/cocktail/${id}`}><i style={{marginRight:'5px'}} className="fa fa-bar-chart"></i>Single Mention</Link></div>
+            <div><Link className="nav-link" to={`/cocktail/${id}`}><i style={{marginRight:'5px'}} className="fa fa-bar-chart"></i>Single Document</Link></div>
             <div style={{marginTop:'2rem'}}class="form-group">
            
           </div>
