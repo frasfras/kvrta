@@ -189,11 +189,11 @@ const [data,setData] =useState ([
           <div class="container">
             <div class="row">
                 <div class="col-sm">
-                {/* One of three columns */}
+                {/* One of three columns  */}
                 <div class="card" style={{marginTop:'2rem'}} >
                 
                     <div className="card-body text-black">
-                    <h5 class="card-title ">Summary</h5>
+                    <h5 class="card-title ">Summarys</h5>
                     {
                         main.map((maintext)=>{
                             return(
