@@ -212,7 +212,7 @@ const [data,setData] =useState ([
                 </div>
                 <div class="col-sm">
                 <ul class="list-group" style={{marginTop:'2rem'}}>
-                <li class="list-group-item"><b>Main Entities mentioned</b></li>
+                <li class="list-group-item"><b>Entities mentioned</b></li>
                 {
                     entities.map((entity)=>{
                         return(
@@ -293,7 +293,7 @@ const [data,setData] =useState ([
       <h2><ul><li><p></p></li></ul>{id} </h2>
       <div className="container" ref={ref}>
             <form class="form-group" style={{marginTop:'3rem'}} onSubmit={submit}>
-                <label for="exampleFormControlTextarea1">Enter/Paste the mention /Click at the box hit "enter" </label>
+                <label for="exampleFormControlTextarea1">Enter-Paste the document /Click at the box hit "enter" </label>
                 <textarea value={id}  class="form-control" id="exampleFormControlTextarea1" rows="12" onChange={onChange}></textarea>
 
                 <button style={{marginTop:'20px'}} type="submit" className="btn btn-block btn-success">Submit</button>
