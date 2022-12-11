@@ -62,6 +62,24 @@ export default function Context() {
               <Link to={`/cocktail/${description}`} className='btn btn-primary btn-details'>details</Link>
             </li>
           ))}
+           <li>
+          <h3>Unit Deeds</h3>
+              {/* <a href='/cocktail/${id}'>details</a> */}
+              <Link to={`/cocktail/Unit Deeds are issued to each condominium owner along with a legal description`} className='btn btn-primary btn-details'>details</Link>
+          Unit Deeds are issued to each condominium owner along with a legal description
+          </li>
+          <li>
+          <h3> Deeds of assignment</h3>
+              {/* <a href='/cocktail/${id}'>details</a> */}
+              <Link to={`/cocktail/Deeds of assignment are issued to each condominium parking owner along with a legal description`} className='btn btn-primary btn-details'>details</Link>
+           
+          </li>
+          <li>
+          <h3> Youtube comment</h3>
+              {/* <a href='/cocktail/${id}'>details</a> */}
+              <Link to={`/cocktail/Youtube  comments  paste here `} className='btn btn-primary btn-details'>details</Link>
+           
+          </li>
       </ul>
     </div>
   );
