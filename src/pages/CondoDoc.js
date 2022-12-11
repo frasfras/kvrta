@@ -192,7 +192,7 @@ const [data,setData] =useState ([
                 {/* One of three columns */}
                 <div class="card" style={{marginTop:'2rem'}} >
                 
-                    <div className="card-body text-black">
+                    <div className="card-body btn-primary">
                     <h5 class="card-title ">Summary</h5>
                     {
                         main.map((maintext)=>{
