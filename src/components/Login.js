@@ -74,9 +74,10 @@ function Login(props) {
         <div class="container">
             <div class="row justify-content-center">
             <div class="col-md-7 col-lg-7 col-xl-7">
-                 <h4 >
+          <br/>
+                 <h1 >
                      Welcome to Condominium Documents                     
-                  </h4>
+                  </h1>
                  <p>
                     This site uses AI in analyzing condominium documents
                     Deeds are required for filing with the registrar of deeds to legally register the building as a condominium
