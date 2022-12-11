@@ -35,7 +35,7 @@ function Navbar(props) {
         
         const openRoutes=(
             <nav className="navbar navbar-dark navbar-expand-lg fixed-top text-primary bg-dark portfolio-navbar gradient" >
-            <div className="container-fluid"><Link className="navbar-brand logo" href="/">Reputation Monitor</Link><button data-toggle="collapse" className="navbar-toggler" data-target="#navbarNav"><span className="sr-only">Toggle navigation</span><span className="navbar-toggler-icon"></span></button>
+            <div className="container-fluid"><Link className="navbar-brand logo" href="/">AI Condo docs</Link><button data-toggle="collapse" className="navbar-toggler" data-target="#navbarNav"><span className="sr-only">Toggle navigation</span><span className="navbar-toggler-icon"></span></button>
                 <div className="collapse navbar-collapse"
                     id="navbarNav">
                     <ul className="nav navbar-nav ml-auto">
@@ -57,7 +57,7 @@ function Navbar(props) {
     
         var privateRoutes=(
             <nav className="navbar navbar-dark navbar-expand-lg fixed-top text-primary bg-dark portfolio-navbar gradient" >
-            <div className="container-fluid"><Link className="navbar-brand logo" href="/">Legal Expert</Link><button data-toggle="collapse" className="navbar-toggler" data-target="#navbarNav"><span className="sr-only">Toggle navigation</span><span className="navbar-toggler-icon"></span></button>
+            <div className="container-fluid"><Link className="navbar-brand logo" href="/">AI Condo </Link><button data-toggle="collapse" className="navbar-toggler" data-target="#navbarNav"><span className="sr-only">Toggle navigation</span><span className="navbar-toggler-icon"></span></button>
                 <div className="collapse navbar-collapse"
                     id="navbarNav">
                     <ul className="nav navbar-nav ml-auto">
