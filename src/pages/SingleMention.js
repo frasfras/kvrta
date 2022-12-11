@@ -259,7 +259,7 @@ const [data,setData] =useState ([
             <div class="card" style={{marginTop:'2rem'}} >
                 
                     {/* <div class="card-body"> */}
-                    <h5 style={{textAlign:'center',marginTop:'2rem'}}>Sentiment of Mention</h5>
+                    <h5 style={{textAlign:'center',marginTop:'2rem'}}>Sentiment of Condo</h5>
                     <div align="right" style={{width: '60%'}}> 
                         <BarChart ylabel='range'
                         width={500}

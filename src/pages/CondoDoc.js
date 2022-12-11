@@ -259,7 +259,7 @@ const [data,setData] =useState ([
             <div class="card" style={{marginTop:'2rem'}} >
                 
                     {/* <div class="card-body"> */}
-                    <h5 style={{textAlign:'center',marginTop:'2rem'}}>Sentiment of Mention</h5>
+                    <h5 style={{textAlign:'center',marginTop:'2rem'}}>Sentiment of Document</h5>
                     <div align="right" style={{width: '60%'}}> 
                         <BarChart ylabel='range'
                         width={500}
@@ -274,15 +274,7 @@ const [data,setData] =useState ([
             
                
             </div>
-            {/* <h5 style={{textAlign:'center',marginTop:'2rem'}}>Sentiment of Mention</h5>
-            <div style={{width: '100%'}}> 
-                <BarChart ylabel='Scale'
-                  width={500}
-                  height={500}
-                  margin={box}
-                  data={data}
-                  />   
-            </div> */}
+           
                 
             
         </div>
@@ -296,7 +288,7 @@ const [data,setData] =useState ([
                 <label for="exampleFormControlTextarea1">Enter-Paste the document /Click at the box hit "enter" </label>
                 <textarea value={id}  class="form-control" id="exampleFormControlTextarea1" rows="12" onChange={onChange}></textarea>
 
-                <button style={{marginTop:'20px'}} type="submit" className="btn btn-block btn-success">Submit</button>
+                <button style={{marginTop:'20px'}} type="submit" className="btn btn-block btn-info">Submit</button>
             </form>
            
             </div>
