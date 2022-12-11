@@ -74,7 +74,7 @@ function Login(props) {
         <div class="container">
             <div class="row justify-content-center">
             <div class="col-md-7 col-lg-7 col-xl-7">
-          <br/>
+          <br/><br/><br/>
                  <h1 >
                      Welcome to Condominium Documents                     
                   </h1>
