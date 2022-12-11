@@ -192,7 +192,7 @@ const [data,setData] =useState ([
                 {/* One of three columns */}
                 <div class="card" style={{marginTop:'2rem'}} >
                 
-                    <div class="card-body">
+                    <div class="card-body text-black">
                     <h5 class="card-title">Summary</h5>
                     {
                         main.map((maintext)=>{
@@ -212,7 +212,7 @@ const [data,setData] =useState ([
                 </div>
                 <div class="col-sm">
                 <ul class="list-group" style={{marginTop:'2rem'}}>
-                <li class="list-group-item"><b>Entities mentioned</b></li>
+                {/* <li class="list-group-item"><b>Entities mentioned</b></li>
                 {
                     entities.map((entity)=>{
                         return(
@@ -221,7 +221,7 @@ const [data,setData] =useState ([
                             
                         )
                     })
-                }
+                } */}
                 
                 
             </ul>
@@ -240,18 +240,19 @@ const [data,setData] =useState ([
                 }
                 </div>
                 <div className="col col-lg-8">
-                {/* <ul class="list-group" style={{marginTop:'2rem'}}>
+                <ul class="list-group" style={{marginTop:'2rem'}}>
                 <li class="list-group-item"><b>Main Entities mentioned</b></li>
                 {
                     entities.map((entity)=>{
                         return(
-                            <li class="list-group-item">{entity.lemma}</li>
+                              <li class="list-group-item d-flex justify-content-between align-items-center active">Item  <span class="badge badge-danger badge-pill">{entity.lemma}</span></li>
+                            // <li class="list-group-item">{entity.lemma}</li>
                         )
                     })
                 }
                 
                 
-            </ul> */}
+            </ul> 
                    
                 </div>
             </div>
